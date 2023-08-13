@@ -1,0 +1,51 @@
+:root {
+    --btn-width: 45px;
+}
+
+.push__container {
+    position: relative;
+    height: 30px;
+    width: 60%;
+}
+
+.push-input {
+
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    padding-right: var(--btn-width);
+
+    outline: none;
+    border: 1px solid rgba(177, 177, 177, 1);
+    background-color: rgba(177, 177, 177, 0.4);
+
+    color: black;
+}
+
+.push-input::placeholder {
+    color: rgba(123, 123, 123, 1);
+}
+
+.push-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    width: var(--btn-width);
+    height: 100%;
+
+    border-radius: 0, 5px, 5px, 0;
+    background-color: rgba(63, 114, 175, 1);
+    color: rgba(255, 255, 255, 1);
+
+    font-size: 3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    outline: none;
+
+    cursor: pointer;
+}

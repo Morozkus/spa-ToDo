@@ -1,0 +1,15 @@
+.list__item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    width: 90%;
+    min-height: 55px;
+
+    padding: 12.5px 15px;
+    background-color: rgba(219, 226, 239, 1);
+}
+
+.list__text {
+    word-break: break-all;
+}

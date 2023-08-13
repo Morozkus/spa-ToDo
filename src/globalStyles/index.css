@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,400;1,600&family=Ubuntu&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    line-height: 110%;
+}
+
+:root {
+    font-size: 10px;
+}
+
+body {
+    background-color: rgba(63, 114, 175, 1);
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.App {
+    width: 40%;
+    min-width: 320px;
+    min-height: 450px;
+
+    padding: 20px 50px;
+
+    border-radius: 20px;
+
+    margin: auto;
+    margin-top: 50px;
+}
+
+.app_display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.app_background {
+    background-color: rgba(249, 247, 247, 1);
+}
+
+.app__title {
+    font-size: 4rem;
+    color: rgba(17, 45, 78, 1);
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    width: 100%;
+}
